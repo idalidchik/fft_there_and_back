@@ -39,7 +39,7 @@ endif()
 #set the default path for built executables to the "bin" directory
 #set the default path for built libraries to the "lib" directory
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
-set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+#set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 MESSAGE( STATUS "CMAKE_CURRENT_SOURCE_DIR: " ${CMAKE_CURRENT_SOURCE_DIR} )
 include_directories(${ADDITIONAL_INCLUDE_DIRS} ${CMAKE_CURRENT_SOURCE_DIR})
