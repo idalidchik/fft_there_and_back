@@ -1,8 +1,13 @@
 // fft_real.cpp : 
 //
-#include "fft_real.h"
+#include <cstring>
+#include <stdio.h>
+#include <stddef.h>
+#include <stdint.h>
 #include <math.h>
 #include <assert.h>
+
+#include "fft_real.h"
 
 // warning C4244: '=' : conversion from 'double' to 'float'
 #pragma warning(disable:4244)

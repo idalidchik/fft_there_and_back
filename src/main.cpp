@@ -1,7 +1,7 @@
 // main.cpp : Defines the entry point for the console application.
 //
 #include <stdio.h>
-#include <tchar.h>
+#include <cstring>
 #include <iostream>
 #include <cmath>
 #include <vector>
